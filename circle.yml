@@ -1,6 +1,7 @@
 test:
   override:
     - mkdir -p dist
+    - cp src/resume.json .
     - ./node_modules/.bin/resume export dist/resume.pdf --theme elegant
     - ./node_modules/.bin/resume export dist/resume.html --theme elegant
   post:
