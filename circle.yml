@@ -1,0 +1,17 @@
+test:
+  override:
+    - mkdir -p dist
+    - ./node_modules/.bin/resume export dist/resume.pdf --theme elegant
+    - ./node_modules/.bin/resume export dist/resume.html --theme elegant
+  post:
+    - git config user.name "circleci"
+    - git config user.email "resume@erulabs.com"
+    - git add -A
+    - git commit -m "build"
+
+# eployment:
+#   master:
+#     branch: master
+#     owner: erulabs
+#     commands:
+#       - git push -f git@github.com:erulabs/resume ${CIRCLE_BRANCH}:gh-pages

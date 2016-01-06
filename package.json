@@ -27,5 +27,8 @@
     "node-libs-browser": "^0.5.2",
     "run-sequence": "^1.1.2",
     "semantic-ui-less": "^2.0.8"
+  },
+  "dependencies": {
+    "resume-cli": "^0.4.8"
   }
 }
