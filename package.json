@@ -1,0 +1,31 @@
+{
+  "name": "mambleschool",
+  "version": "0.0.1",
+  "description": "Erulabs.com",
+  "main": "dist/index.html",
+  "scripts": {},
+  "author": "Seandon Mooy <seandon.mooy@gmail.com> (http://erulabs.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^5.3.2",
+    "connect-modrewrite": "^0.8.2",
+    "eslint": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-add-src": "^0.2.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.0.3",
+    "gulp-remove-empty-lines": "0.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-watch": "^4.3.4",
+    "gulp-webpack": "^1.5.0",
+    "json-loader": "^0.5.2",
+    "moment": "^2.10.6",
+    "node-libs-browser": "^0.5.2",
+    "run-sequence": "^1.1.2",
+    "semantic-ui-less": "^2.0.8"
+  }
+}
